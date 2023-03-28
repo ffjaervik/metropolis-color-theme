@@ -488,17 +488,10 @@
     },
     //JSX
     {
-      "name": "JSX Tag",
-      "scope": ["entity.name.tag.jsx"],
+      "name": "JSX Tag & punctiation",
+      "scope": ["entity.name.tag.jsx", "punctuation.definition.tag"],
       "settings": {
         "foreground": "#3CDBC0"
-      }
-    },
-    {
-      "name": "JSX Attribute",
-      "scope": ["JSXStartTagEnd", "JSXEndTagStart"],
-      "settings": {
-        "foreground": "#FC4235"
       }
     },
     {
