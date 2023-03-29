@@ -78,7 +78,7 @@
     "minimap.errorHighlight": "#ff1500c4",
     "minimap.warningHighlight": "#F1BE48",
     "minimapSlider.background": "#47ffff1f",
-    "minimapSlider.hoverBackground": "#47ffff2d",
+    "minimapSlider.hoverBackground": "#47ffff1f",
     "minimapSlider.activeBackground": "#47ffff60",
     //PANEL
     "panel.border": "#061822",
