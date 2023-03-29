@@ -253,22 +253,10 @@
       }
     },
     {
-      "name": "Keyword",
-      "scope": [
-        "keyword",
-        "keyword.operator.logical",
-        "keyword.operator.constructor",
-        "keyword.operator.accessor"
-      ],
+      "name": "Keyword Operator",
+      "scope": ["keyword.operator", "keyword"],
       "settings": {
         "foreground": "#3CDBC0"
-      }
-    },
-    {
-      "name": "Keyword Operator",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#CAD2D6"
       }
     },
     {
@@ -287,8 +275,15 @@
       }
     },
     {
-      "name": "Types",
+      "name": "Storage Types",
       "scope": "storage.type",
+      "settings": {
+        "foreground": "#3CDBC0"
+      }
+    },
+    {
+      "name": "TS Types & interface",
+      "scope": ["storage.type.interface", "storage.type.type"],
       "settings": {
         "foreground": "#3CDBC0",
         "fontStyle": "italic"
@@ -329,8 +324,12 @@
       "scope": [
         "string.quoted.single.js",
         "string.quoted.double.js",
+        "string.quoted.single.jsx",
+        "string.quoted.double.jsx",
         "string.quoted.single.ts",
-        "string.quoted.double.ts"
+        "string.quoted.double.ts",
+        "string.quoted.single.tsx",
+        "string.quoted.double.tsx"
       ],
       "settings": {
         "foreground": "#CAD2D6",
@@ -352,7 +351,7 @@
         "entity.name.type.ts"
       ],
       "settings": {
-        "foreground": "#2bcf33"
+        "foreground": "#59DE4A"
       }
     },
     {
@@ -468,7 +467,6 @@
         "parameter.variable"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#F1BE48"
       }
     },
@@ -491,7 +489,7 @@
       "name": "JSX Tag & punctiation",
       "scope": ["entity.name.tag.jsx", "punctuation.definition.tag"],
       "settings": {
-        "foreground": "#3CDBC0"
+        "foreground": "#cad2d6ab"
       }
     },
     {
