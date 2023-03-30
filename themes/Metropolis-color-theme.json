@@ -2,7 +2,6 @@
   "name": "Metropolis",
   "type": "dark",
   "colors": {
-    "focusBorder": "#3CDBC0",
     "activityBar.background": "#081F2C",
     "activityBar.foreground": "#3CDBC0",
     "activityBar.activeBorder": "#F1BE48",
@@ -22,6 +21,7 @@
     "editorError.foreground": "#ff1500",
     "editorGroup.emptyBackground": "#0e3044",
     "editorGroup.border": "#081F2C",
+    "editorGroup.dropBackground": "#47ffff40",
     "editorGroupHeader.tabsBackground": "#061822",
     "editorIndentGuide.background": "#275067",
     "editorIndentGuide.activeBackground": "#F1BE48",
@@ -36,20 +36,25 @@
     "editorWhitespace.foreground": "#133a51",
     "editorWidget.background": "#061822",
     "input.background": "#061822",
+    //SCROLLBAR
+    "scrollbarSlider.background": "#47ffff1f",
+    "scrollbarSlider.hoverBackground": "#47ffff2d",
+    "scrollbarSlider.activeBackground": "#47ffff60",
+    //SIDEBAR
+    "sideBar.background": "#061822",
+    "sideBarSectionHeader.background": "#061822",
+    "sideBar.dropBackground": "#47ffff40",
+    //LIST
+    "focusBorder": "#3CDBC0",
     "list.activeSelectionBackground": "#234356",
     "list.activeSelectionForeground": "#3CDBC0",
     "list.focusBackground": "#234356",
     "list.highlightForeground": "#C5C5C5",
-    "list.hoverBackground": "#292d35",
-    "list.inactiveSelectionBackground": "#2c313a",
+    "list.hoverBackground": "#234356",
+    "list.inactiveSelectionBackground": "#234356",
     "list.inactiveSelectionForeground": "#3CDBC0",
     "notifications.background": "#061822",
-    "scrollbarSlider.background": "#47ffff1f",
-    "scrollbarSlider.hoverBackground": "#47ffff2d",
-    "scrollbarSlider.activeBackground": "#47ffff60",
-    "sideBar.background": "#061822",
-    "sideBarSectionHeader.background": "#061822",
-    "sideBar.dropBackground": "#47ffff40",
+    //STATUS BAR
     "statusBar.background": "#061822",
     "statusBar.foreground": "#6b7588",
     "statusBarItem.hoverBackground": "#2c313a",
@@ -57,6 +62,7 @@
     "statusBar.debuggingBackground": "#061822",
     "statusBarItem.warningBackground": "#F1BE48",
     "statusBarItem.warningForeground": "#061822",
+    //TAB
     "tab.activeBackground": "#081F2C",
     "tab.border": "#081F2C",
     "tab.inactiveBackground": "#061822",
@@ -144,20 +150,11 @@
     "settings.dropdownListBorder": "#3CDBC0",
     //BRACKETS
     "editorBracketMatch.border": "#00fff7",
-
     "editorBracketHighlight.foreground1": "#FCFC00",
     "editorBracketHighlight.foreground2": "#009FFD",
     "editorBracketHighlight.foreground3": "#ff57f7",
-    // "editorBracketHighlight.foreground1": "#00ff2a",
-    // "editorBracketHighlight.foreground2": "#009FFD",
-    // "editorBracketHighlight.foreground3": "#FCFC00",
-    // "editorBracketHighlight.foreground4": "#ff57f7",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff94"
-
     //EXPERIMENTAL
-    // "terminal.dropBackground": "#ff4df6",
-    // "panel.dropBorder": "#ff4df6",
-    // "activityBar.dropBorder": "#ff4df6"
   },
 
   "tokenColors": [
@@ -181,7 +178,7 @@
       "settings": {
         "foreground": "#ff7e28",
         "fontStyle": ""
-      },
+      }
     },
     {
       "name": "Number, Boolean, Undefined",
@@ -315,7 +312,7 @@
       "name": "Quotes",
       "scope": [
         "punctuation.definition.string",
-        "punctuation.definition.quasi",
+        "punctuation.definition.quasi"
       ],
       "settings": {
         "foreground": "#fc4235"
