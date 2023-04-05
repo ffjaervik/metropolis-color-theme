@@ -366,7 +366,7 @@
     },
     {
       "name": "Type Primitive",
-      "scope": ["support.type.primitive"],
+      "scope": ["support.type.primitive", "support.type.builtin.ts"],
       "settings": {
         "foreground": "#717efa"
       }
