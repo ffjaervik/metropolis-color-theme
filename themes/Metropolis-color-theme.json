@@ -366,9 +366,9 @@
     },
     {
       "name": "Type Primitive",
-      "scope": ["support.type.primitive.ts"],
+      "scope": ["support.type.primitive"],
       "settings": {
-        "foreground": "#CAD2D6"
+        "foreground": "#e870ec"
       }
     },
     {
@@ -533,6 +533,13 @@
     {
       "name": "HTML Other Token ",
       "scope": ["entity.other.attribute-name.html"],
+      "settings": {
+        "foreground": "#25D65A"
+      }
+    },
+    {
+      "name": "HTML Other Token ",
+      "scope": ["entity.other.attribute-name.html.vue"],
       "settings": {
         "foreground": "#fc4235"
       }
