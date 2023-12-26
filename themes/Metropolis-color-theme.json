@@ -23,8 +23,8 @@
     "editorGroup.border": "#081F2C",
     "editorGroup.dropBackground": "#47ffff40",
     "editorGroupHeader.tabsBackground": "#061822",
-    "editorIndentGuide.background": "#275067",
-    "editorIndentGuide.activeBackground": "#F1BE48",
+    "editorIndentGuide.background1": "#275067",
+    "editorIndentGuide.activeBackground1": "#F1BE48",
     "editorHoverWidget.background": "#061822",
     "editorHoverWidget.border": "#3CDBC0",
     "editorLineNumber.foreground": "#234356",
@@ -73,9 +73,10 @@
     "gitDecoration.addedResourceForeground": "#2bcf33",
     "gitDecoration.modifiedResourceForeground": "#F1BE48",
     "gitDecoration.deletedResourceForeground": "#fc4235",
-    "gitDecoration.untrackedResourceForeground": "#029d31",
+      "gitDecoration.untrackedResourceForeground": "#f1be489d",
     "gitDecoration.ignoredResourceForeground": "#7f9099",
     "gitDecoration.conflictingResourceForeground": "#fc4235",
+    "gitDecoration.stageModifiedResourceForeground": "#717efa",
     //MINIMAP
     "editorOverviewRuler.background": "#061822",
     "editorOverviewRuler.border": "#061822",
@@ -409,14 +410,8 @@
         "variable.object.property"
       ],
       "settings": {
-        "foreground": "#F1BE48"
-      }
-    },
-    {
-      "name": "Other variable",
-      "scope": ["variable.other.readwrite"],
-      "settings": {
-        "foreground": "#F1BE48"
+        "foreground": "#F1BE48",
+        "fontStyle": ""
       }
     },
     {
@@ -427,7 +422,16 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#ff7e28"
+        "foreground": "#ff7e28",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Other variable",
+      "scope": ["variable.other.readwrite"],
+      "settings": {
+        "foreground": "#F1BE48",
+        "fontStyle": ""
       }
     },
     {
