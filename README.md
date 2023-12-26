@@ -1,5 +1,10 @@
 # metropolis README
 
+A lot of love went into making this theme. Try it out and let me know what you think.
+
+
+
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
