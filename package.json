@@ -18,5 +18,14 @@
         "path": "./themes/Metropolis-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ffjaervik/metropolis-color-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "gmk"
+  ]
 }
