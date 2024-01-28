@@ -306,7 +306,6 @@
       "scope": [
         "entity.name.class",
         "entity.name.module",
-        "entity.name.type",
         "storage.identifier",
         "support.class"
       ],
