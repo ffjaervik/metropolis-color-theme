@@ -176,7 +176,21 @@
         "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff94"
         //EXPERIMENTAL
     },
-
+    // SEMANTIC TOKENS // WILL OVERWRITE THE TEXMATE SCOPE ON: tokenColors
+    // https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "variable": "#F1BE48",
+        "variable.readonly": "#F1BE48",
+        "property": "#ff7e28",
+        "function": "#fc4235",
+        "method": "#fc4235",
+        "class": {
+            "foreground": "#5ddd2b",
+            "fontStyle": ""
+        }
+    },
+    // TEXTMATE SCOPED
     "tokenColors": [
         {
             "name": "Comment",
@@ -204,7 +218,7 @@
             "name": "Object Key",
             "scope": ["string.unquoted", "constant.other.object.key"],
             "settings": {
-                "foreground": "#ff7e28",
+                "foreground": "#ff7e28"
             }
         },
         {
@@ -317,11 +331,7 @@
         },
         {
             "name": "String JS & TS",
-            "scope": [
-                "string.quoted.single",
-                "string.quoted.double",
-                "string.quoted.template",
-            ],
+            "scope": ["string.quoted.single", "string.quoted.double", "string.quoted.template"],
             "settings": {
                 "foreground": "#CAD2D6",
                 "fontStyle": "italic"
@@ -336,12 +346,7 @@
         },
         {
             "name": "Interface & Type",
-            "scope": [
-                "entity.name.type.interface",
-                "entity.name.type.alias",
-                "entity.name.type",
-                "entity.name.label",
-            ],
+            "scope": ["entity.name.type.interface", "entity.name.type.alias", "entity.name.type", "entity.name.label"],
             "settings": {
                 "foreground": "#717efa"
             }
@@ -350,7 +355,7 @@
             "name": "Interface & Type",
             "scope": ["entity.name.type.class", "entity.other.inherited-class"],
             "settings": {
-                "foreground": "#5ddd2b",
+                "foreground": "#5ddd2b"
             }
         },
         {
@@ -362,7 +367,7 @@
         },
         {
             "name": "Variable Object Property",
-            "scope": ["variable.object.property.ts", "variable.other.object.property.ts"],
+            "scope": ["variable.object.property", "variable.object.property.ts", "variable.other.object.property.ts"],
             "settings": {
                 "foreground": "#ff7e28"
             }
@@ -373,12 +378,12 @@
                 "variable.other.object",
                 "variable.other.constant",
                 "variable.other.global",
-                "variable.other.readwrite.class",
-                "variable.other.readwrite.instance",
-                "variable.other.readwrite.batchfile",
                 "variable.readwrite",
                 "variable.readwrite.other.block",
-                "variable.object.property"
+                "variable.other.readwrite",
+                "variable.other.readwrite.class",
+                "variable.other.readwrite.instance",
+                "variable.other.readwrite.batchfile"
             ],
             "settings": {
                 "foreground": "#F1BE48",
@@ -417,7 +422,12 @@
         },
         {
             "name": "Function name & symbols",
-            "scope": ["entity.name.function", "storage.type.function.arrow"],
+            "scope": [
+                "entity.name.function",
+                "storage.type.function.arrow",
+                "entity.name.function.member",
+                "meta.function-call.generic.python"
+            ],
             "settings": {
                 "foreground": "#fc4235"
             }
@@ -849,6 +859,14 @@
             "scope": ["variable.other", "source.go"],
             "settings": {
                 "foreground": "#F1BE48"
+            }
+        },
+        // PYTHON
+        {
+            "name": "Language specific (self)",
+            "scope": ["variable.language.special.self.python", "variable.parameter.function.language.special.self.python"],
+            "settings": {
+                "foreground": "#3CDBC0"
             }
         }
     ]
