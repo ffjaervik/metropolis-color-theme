@@ -866,7 +866,7 @@
             "name": "Language specific (self)",
             "scope": ["variable.language.special.self.python", "variable.parameter.function.language.special.self.python"],
             "settings": {
-                "foreground": "#3CDBC0"
+                "foreground": "#5DDD2B"
             }
         }
     ]
